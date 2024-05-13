@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio website </title>
+    <link rel = "stylesheet" href ="Portfolio.css">
+</head>
+<body>
+    <section class = "home" id="home">
+        <header>
+            <a href="#" class ="logo">Portfolio</a>
+            <a href="#" id="menuicon"><ion-icon name="menu-outline"></ion-icon></a>
+            
+            <div class="naviga">
+                <a href="#home"style="a-1"class="active">Home</a>
+                <a href="#about"style="a-2" >About</a>
+                <a href="#skills"style="a-3" >Skills</a>
+                <a href="#services"style="a-5" >Services</a>
+                <a href="#contacts"style="a-6" >Contacts</a>
+            </div>
+        </header>
+        
+        <div class="homecontent">
+            <div class = "content">
+                <h2>Hello, It's Me</h2>
+                <h1>Kadam Smita </h1>
+                <h2>And I'm a</h2><h1 data-text ="Frontend Designer" class = "tittle"> Frontend Designer</h1>
+                <p>I'm a web Designer and expertise to create and Website Design,Frontend Design and many more...
+                </p>
+                <a href ="#about">More about me</a>
+            </div>
+            <div class="home-img">
+                <img src ="uniformimg2.jpg" alt =" " style="border-radius: 80%;width: 600px;">
+            </div>
+        </div>
+        <ul class ="icons">
+            <li><a href="#"style="a-7"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="https://www.instagram.com/s.mita10?igsh=MXc1MXAxamlwZzAxdA=="style="a-8"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="http://www.linkedin.com/in/smita-kadam-771721291"style="a-9"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        </ul>
+        
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src ="uniformimg2.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h1 class="about-text" >About<span> Me</span></h1>
+            <h3>Frontend Developer</h3>
+            <p> Hi there! My name is Smita Kadam and I am a computer engineering student at Government College of Engineering and Research, Avasari , Pune.  With skills in HTML, CSS, and currently working on honing my skills in JavaScript, I am always eager to learn and adapt to new technologies.
+                I am also well-versed in C++ programming.
+                I strongly believe that continuous learning and stepping out of one's comfort zone is crucial for personal and professional growth.
+                <br>
+                I am proud to be a Reliance Scholar, a prestigious scholarship that not only provides financial support but also encourages and motivates me to excel in both academics and extracurricular activities. I believe that diversity is crucial for personal and professional growth. </p>
+        </div>
+    </section >
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h1 class="heading">My Skills</h1>
+            <h3>Technical Skills</h3>
+            
+            <div class="technicalbars">
+                <div class="bars"><ion-icon name="logo-html5" style="color:rgb(206, 124, 8)"></ion-icon>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progressline html">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bars"><ion-icon name="logo-css3" style="color: rgb(63, 102, 229);"></ion-icon>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progressline css">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bars"><ion-icon name="logo-javascript" style="color: rgb(205, 195, 11);"></ion-icon>
+                    <div class="info">
+                        <span>JAVASCRIPT</span>
+                    </div>
+                    <div class="progressline js">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bars"><ion-icon name="logo-android" style="color: rgb(69, 180, 92);"></ion-icon>
+                    <div class="info">
+                        <span>ANDROID XML</span>
+                    </div>
+                    <div class="progressline android">
+                        <span></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="containers">
+            <div>
+                <h4>Web Designing</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium autem assumenda quae ex amet molestias excepturi facere laborum quo minima deserunt quas eveniet, exercitationem omnis magnam in. In, magnam totam.</p>
+            </div>
+            <div>
+                <h4>Android Designing</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor numquam possimus eius ipsam? Similique nostrum cumque quo ab. Aspernatur ab nulla deserunt explicabo doloremque amet quas deleniti natus quidem odio!</p>
+            </div>
+            <div>
+                <h4>UI/UX Designing</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rerum sunt placeat, magni nam perspiciatis cupiditate dolores libero non! Reprehenderit, ab culpa temporibus numquam voluptas nesciunt magni dolorem error sequi?</p>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <h2  class ="headingname">Contact <span> Me :</span></h2>
+        <form action="#">
+            <div class="inputBox">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Mobile Number">
+            </div>
+            <textarea name=""id=""cols="30" placeholder="Your Messege"></textarea>
+            <input type="submit" value="Send Messege" class ="subbut">
+        </form>
+    </section>
+
+    <section class="footer" >
+        <div class="footertext">
+            <p>Copyright &copy; 2024 by @heresthecode | All Rights reserved.</p>
+        </div>
+        <div class="footericon">
+            <a href="#home"><ion-icon name="chevron-up-outline"></ion-icon></a>
+        </div>
+    </section>
+    
+    <!--scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--icons-->
+    <script 
+        type="module" 
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+    </script>
+
+    <script 
+        nomodule 
+        src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+    </script>
+    <script 
+        type ="text/javascript" 
+        src = "Portfolio.js">
+    </script>
+</body>
+</html>
